@@ -6,7 +6,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.openqa.selenium.support.ui.Select
+import org.openqa.selenium.support.ui.Select;
 
 import SetupClass.Set;
 import cucumber.api.java.en.Given;
@@ -115,7 +115,7 @@ public class sli_search extends Set{
 		  
 //SLI to Magento
 
-          WebElement Left_Design =wait.until(ExpectedConditions.elementToBeClickable((By.cssSelector("#new-menu > li:nth-child(1) > a")));
+          WebElement Left_Design =wait.until(ExpectedConditions.elementToBeClickable(By.cssSelector("#new-menu > li:nth-child(1) > a")));
 		  Thread.sleep(3000);
 		  Left_Design.click();
 		  Thread.sleep(1000);
