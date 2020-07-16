@@ -109,7 +109,7 @@ public class sli_search extends Set{
 		  Thread.sleep(3000);
 		  Refine_node.click();
 // Sort by drop down list
-          Select dropdown= new select(driver.findElement(By.Id("#dk0-combobox")));
+          Select dropdown= new Select(driver.findElement(By.Id("#dk0-combobox")));
           dropdown.selectByVisibleText("Newest");
           Thread.sleep(3000);
 		  
